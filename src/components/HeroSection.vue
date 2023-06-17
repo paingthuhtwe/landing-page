@@ -1,7 +1,9 @@
 <template>
   <div class="justify-center items-center my-16">
-    <h1 class="text-4xl font-semibold text-white">IMAGINE A PLACE...</h1>
-    <p class="md:px-[18rem] mt-8 text-white">
+    <h1 class="text-4xl font-semibold text-white text-center">
+      IMAGINE A PLACE...
+    </h1>
+    <p class="md:px-[18rem] mt-8 text-white text-center">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem,
       accusantium nihil, aliquam optio alias in hic doloribus, sunt id commodi
       dolore omnis cumque magni voluptas maxime voluptates ab facilis! sunt id
