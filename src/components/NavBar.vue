@@ -6,7 +6,7 @@
       <span class="font-semibold text-3xl text-white">Vanilla</span>
     </div>
     <!-- menu section -->
-    <div class="flex">
+    <div class="hidden md:flex">
       <div
         class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mr-1"
       >
@@ -100,6 +100,42 @@
         </div>
       </label>
     </div>
+
+    <!-- menu icon for mobile -->
+    <div class="md:hidden">
+      <div
+        class="menu-icon cursor-pointer"
+        @click="menu = !menu"
+        :class="{ close: !menu }"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- menu section for mobile -->
+  <div class="md:hidden mt-4" v-if="!menu">
+    <div
+      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
+    >
+      <a href="#home">Home</a>
+    </div>
+    <div
+      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
+    >
+      <a href="#why">Why?</a>
+    </div>
+    <div
+      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
+    >
+      <a href="#feature">Feature</a>
+    </div>
+    <div
+      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
+    >
+      <a href="#blog">Blog</a>
+    </div>
   </div>
 </template>
 
@@ -124,7 +160,10 @@ export default {
         : [localStorage.setItem("theme", "light"), (mode.value = theme)];
     };
 
-    return { mode, toggleTheme };
+    // for menu toggle
+    let menu = ref(true);
+
+    return { mode, toggleTheme, menu };
   },
 };
 </script>

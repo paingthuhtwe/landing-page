@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-green-400 py-5">
+  <div class="bg-green-400 py-4">
     <div class="w-10/12 mx-auto">
       <NavBar></NavBar>
     </div>
