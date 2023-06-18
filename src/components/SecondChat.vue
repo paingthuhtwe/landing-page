@@ -1,7 +1,15 @@
 <template>
   <div class="md:flex justify-center mx-auto my-10">
-    <!-- for left  -->
+    <!-- for left -->
     <div class="md:p-3 md:w-96 mb-5 md:mb-0">
+      <h1 class="text-2xl font-semibold">Why hanging out is easy</h1>
+      <p>
+        Grab a seat in a voice channel when you're free. Friends in your server
+        can see your around and instantly pop in to talk without having a call.
+      </p>
+    </div>
+    <!-- for right  -->
+    <div class="md:p-3 md:w-96">
       <div class="border shadow-sm shadow-indigo-200 p-5 bg-white rounded-md">
         <h1 class="text-2xl font-semibold">Chats</h1>
         <div
@@ -44,17 +52,6 @@
         </div>
         <!-- end bootstrap  -->
       </div>
-    </div>
-    <!-- for right -->
-    <div class="md:p-3 md:w-96">
-      <h1 class="text-2xl font-semibold">
-        Create an invite-only place where you belong
-      </h1>
-      <p>
-        Vanilla servers are organized into topic-based channels where you can
-        collaborate, share and just talk your day without clogging up a group
-        chat.
-      </p>
     </div>
   </div>
 </template>

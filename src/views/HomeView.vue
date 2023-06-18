@@ -9,14 +9,20 @@
       <HeroSection></HeroSection>
     </div>
   </div>
-  <div class="bg-slate-300 py-4">
+  <div class="py-4">
     <div class="w-10/12 mx-auto">
-      <FirstChat></FirstChat>
+      <div class="my-10">
+        <FirstChat></FirstChat>
+      </div>
+      <div class="my-10">
+        <SecondChat></SecondChat>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import SecondChat from "../components/SecondChat";
 import FirstChat from "../components/FirstChat";
 import HeroSection from "../components/HeroSection";
 import NavBar from "../components/NavBar";
@@ -25,6 +31,7 @@ import NavBar from "../components/NavBar";
 export default {
   name: "HomeView",
   components: {
+    SecondChat,
     FirstChat,
     HeroSection,
     NavBar,
