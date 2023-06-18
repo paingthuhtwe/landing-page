@@ -1,12 +1,12 @@
 <template>
   <!-- for up  -->
-  <div class="flex justify-center border-b py-5">
+  <div class="md:flex justify-center border-b py-5">
     <!-- for start  -->
-    <div class="md:w-1/3">
+    <div class="md:w-1/3 mb-12 md:mb-0">
       <h1 class="text-2xl font-bold text-white">IMAGINE A PLACE</h1>
     </div>
     <!-- for center  -->
-    <div class="md:w-1/3 flex">
+    <div class="md:w-1/3 flex mb-5 md:mb-0">
       <div class="w-1/2">
         <h1 class="text-lg font-semibold text-white mb-2">Products</h1>
         <ul class="text-slate-100">
