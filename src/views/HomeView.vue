@@ -1,28 +1,40 @@
 <template>
-  <div class="bg-green-400 py-4">
+  <!-- for navbar section  -->
+  <div class="bg-green-600 py-4">
     <div class="w-10/12 mx-auto">
       <NavBar></NavBar>
     </div>
   </div>
+  <!-- for hero section  -->
   <div class="bg-green-500 py-4">
     <div class="w-10/12 mx-auto">
       <HeroSection></HeroSection>
     </div>
   </div>
+  <!-- for chat section  -->
   <div class="py-4">
     <div class="w-10/12 mx-auto">
       <div class="my-10">
         <FirstChat></FirstChat>
       </div>
+    </div>
+  </div>
+  <div class="py-4 bg-slate-50">
+    <div class="w-10/12 mx-auto">
       <div class="my-10">
         <SecondChat></SecondChat>
       </div>
+    </div>
+  </div>
+  <div class="py-4">
+    <div class="w-10/12 mx-auto">
       <div class="my-10">
         <ThirdChat></ThirdChat>
       </div>
     </div>
   </div>
-  <div class="py-4">
+  <!-- for device section  -->
+  <div class="py-12 bg-slate-50">
     <div class="w-10/12 mx-auto">
       <DeviceSection></DeviceSection>
     </div>

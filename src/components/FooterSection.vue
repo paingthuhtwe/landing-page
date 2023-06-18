@@ -97,6 +97,12 @@
       </button>
     </div>
   </div>
+  <!-- for copyright  -->
+  <div class="mt-5">
+    <p class="text-center text-white">
+      Copyright &copy; 2023 Vanilla. All Rights Reserved.
+    </p>
+  </div>
 </template>
 
 <script>

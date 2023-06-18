@@ -1,5 +1,5 @@
 <template>
-  <div class="justify-center items-center my-16">
+  <div class="justify-center items-center my-24">
     <h1 class="text-4xl font-semibold text-white text-center">
       IMAGINE A PLACE...
     </h1>
