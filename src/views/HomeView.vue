@@ -17,11 +17,15 @@
       <div class="my-10">
         <SecondChat></SecondChat>
       </div>
+      <div class="my-10">
+        <ThirdChat></ThirdChat>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import ThirdChat from "../components/ThirdChat";
 import SecondChat from "../components/SecondChat";
 import FirstChat from "../components/FirstChat";
 import HeroSection from "../components/HeroSection";
@@ -31,6 +35,7 @@ import NavBar from "../components/NavBar";
 export default {
   name: "HomeView",
   components: {
+    ThirdChat,
     SecondChat,
     FirstChat,
     HeroSection,
