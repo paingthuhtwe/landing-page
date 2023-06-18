@@ -27,9 +27,15 @@
       <DeviceSection></DeviceSection>
     </div>
   </div>
+  <div class="py-12 bg-slate-600">
+    <div class="w-10/12 mx-auto">
+      <FooterSection></FooterSection>
+    </div>
+  </div>
 </template>
 
 <script>
+import FooterSection from "../components/FooterSection";
 import DeviceSection from "../components/DeviceSection";
 import ThirdChat from "../components/ThirdChat";
 import SecondChat from "../components/SecondChat";
@@ -41,6 +47,7 @@ import NavBar from "../components/NavBar";
 export default {
   name: "HomeView",
   components: {
+    FooterSection,
     DeviceSection,
     ThirdChat,
     SecondChat,
