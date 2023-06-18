@@ -6,26 +6,38 @@
       <span class="font-semibold text-3xl text-white">Vanilla</span>
     </div>
     <!-- menu section -->
-    <div class="hidden md:flex">
+    <div
+      :class="{
+        'bg-slate-200 absolute top-[72px] inset-0 h-[95vh] mx-auto': !menu,
+        hidden: menu,
+      }"
+    >
       <div
-        class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mr-1"
+        class="md:flex"
+        :class="{
+          'flex-col w-10/12 mx-auto mt-10': !menu,
+        }"
       >
-        <a href="#home">Home</a>
-      </div>
-      <div
-        class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mr-1"
-      >
-        <a href="#why">Why?</a>
-      </div>
-      <div
-        class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mr-1"
-      >
-        <a href="#feature">Feature</a>
-      </div>
-      <div
-        class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mr-1"
-      >
-        <a href="#blog">Blog</a>
+        <div
+          class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md md:mr-1 text-center md:text-start mb-2 md:mb-0"
+        >
+          <a href="#home">Home</a>
+        </div>
+        <div
+          class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md md:mr-1 text-center md:text-start mb-2 md:mb-0"
+        >
+          <a href="#why">Why?</a>
+        </div>
+        <div
+          class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md md:mr-1 text-center md:text-start mb-2 md:mb-0"
+        >
+          <a href="#feature">Feature</a>
+        </div>
+        <div
+          class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md md:mr-1 text-center md:text-start mb-2 md:mb-0"
+        >
+          <a href="#blog">Blog</a>
+        </div>
       </div>
     </div>
     <!-- dark mode  -->
@@ -112,29 +124,6 @@
         <span></span>
         <span></span>
       </div>
-    </div>
-  </div>
-  <!-- menu section for mobile -->
-  <div class="md:hidden mt-4" v-if="!menu">
-    <div
-      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
-    >
-      <a href="#home">Home</a>
-    </div>
-    <div
-      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
-    >
-      <a href="#why">Why?</a>
-    </div>
-    <div
-      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
-    >
-      <a href="#feature">Feature</a>
-    </div>
-    <div
-      class="hover:scale-[1.1] duration-200 bg-white px-3 py-2 rounded-md mb-2"
-    >
-      <a href="#blog">Blog</a>
     </div>
   </div>
 </template>
