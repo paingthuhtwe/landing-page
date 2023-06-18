@@ -9,9 +9,9 @@
       dolore omnis cumque magni voluptas maxime voluptates ab facilis! sunt id
       commodi dolore omnis cumque magni voluptas maxime voluptates ab facilis!
     </p>
-    <div class="md:flex justify-center mt-5">
+    <div class="flex justify-center mt-5">
       <button
-        class="text-green-500 bg-white py-2 rounded-full md:mr-2 cursor-pointer hover:-translate-y-1 duration-500 mb-2 md:mb-0 w-48"
+        class="text-green-500 bg-white py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-500 md:w-48 mr-2"
       >
         <fa class="mr-3" :icon="['fas', 'download']" /><span
           class="font-semibold"
@@ -19,7 +19,7 @@
         >
       </button>
       <button
-        class="text-white bg-green-900 py-2 px-8 rounded-full cursor-pointer hover:-translate-y-1 duration-500 w-48"
+        class="text-white bg-green-900 py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-500 md:w-48"
       >
         <fa class="mr-3" :icon="['fas', 'shopping-cart']" /><span
           class="font-semibold"

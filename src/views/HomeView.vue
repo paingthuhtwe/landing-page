@@ -22,9 +22,15 @@
       </div>
     </div>
   </div>
+  <div class="py-4">
+    <div class="w-10/12 mx-auto">
+      <DeviceSection></DeviceSection>
+    </div>
+  </div>
 </template>
 
 <script>
+import DeviceSection from "../components/DeviceSection";
 import ThirdChat from "../components/ThirdChat";
 import SecondChat from "../components/SecondChat";
 import FirstChat from "../components/FirstChat";
@@ -35,6 +41,7 @@ import NavBar from "../components/NavBar";
 export default {
   name: "HomeView",
   components: {
+    DeviceSection,
     ThirdChat,
     SecondChat,
     FirstChat,
