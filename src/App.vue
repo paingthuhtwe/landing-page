@@ -1,12 +1,5 @@
 <template>
-  <nav>
-    <!-- <router-link to="/">
-      <fa :icon="['fas', 'home']" />
-      Home</router-link
-    >
-    |
-    <router-link to="/about">About</router-link> -->
-  </nav>
+  <LoadingPage></LoadingPage>
   <router-view />
 </template>
 
@@ -27,3 +20,9 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script>
+import LoadingPage from "./components/LoadingPage.vue";
+export default {
+  components: { LoadingPage },
+};
+</script>
