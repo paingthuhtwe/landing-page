@@ -1,7 +1,7 @@
 # landing
 
 ## Site Link
-See [Vanilla](https://vanilla-by-panda.web.app/).
+See [https://vanilla-by-panda.web.app/](https://vanilla-by-panda.web.app/).
 
 ## Project setup
 ```
@@ -21,4 +21,4 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-![Vanilla By Panda](gs://paingthuhtwe-portfolio.appspot.com/projects/Vanilla.png)
+![Vanilla By Panda](https://github.com/paingthuhtwe/landing-page/blob/master/src/assets/Vanilla.png)
