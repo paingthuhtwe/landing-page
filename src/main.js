@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import "./assets/tailwind.css";
 import "./assets/menu.css";
-// import "./assets/app.js";
+import "./assets/app.js";
 import "../node_modules/animate.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";

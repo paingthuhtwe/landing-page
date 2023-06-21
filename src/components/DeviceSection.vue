@@ -1,9 +1,11 @@
 <template>
   <div class="">
-    <h1 class="text-3xl font-bold text-center scroll-left">
+    <h1 class="text-3xl font-bold text-center scroll-left dark:text-slate-50">
       RELIABLE TECH FOR STAYING CLOSE
     </h1>
-    <p class="text-center md:px-72 font-semibold text-slate-500 scroll-right">
+    <p
+      class="text-center md:px-72 font-semibold text-slate-500 scroll-right dark:text-slate-300"
+    >
       Get any communit y running with moderation tools and custom member access.
       Give members special powers, setup private channels and more.
     </p>
@@ -11,12 +13,14 @@
       <img class="w-full" src="@/assets/Vanilla_Device.png" alt="" />
     </div>
     <!-- for download section -->
-    <h1 class="text-3xl font-bold text-center mt-12 scroll-top">
+    <h1
+      class="text-3xl font-bold text-center mt-12 scroll-top dark:text-slate-200"
+    >
       READY TO START YOUR JOURNEY
     </h1>
     <div class="flex justify-center my-5">
       <button
-        class="text-white bg-green-500 py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-200 md:w-48 mr-2 scroll-bottom"
+        class="text-white bg-green-500 py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-200 md:w-48 mr-2 scroll-bottom dark:shadow-lg dark:shadow-green-800 dark:text-slate-900"
       >
         <fa class="mr-3" :icon="['fas', 'download']" /><span
           class="font-semibold"

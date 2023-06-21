@@ -11,7 +11,7 @@
     </p>
     <div class="flex justify-center mt-5">
       <button
-        class="text-green-500 bg-white py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-200 md:w-48 mr-2 scroll-left"
+        class="text-green-500 bg-white py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-200 md:w-48 mr-2 scroll-left dark:bg-green-500 dark:text-slate-900"
       >
         <fa class="mr-3" :icon="['fas', 'download']" /><span
           class="font-semibold"
@@ -19,7 +19,7 @@
         >
       </button>
       <button
-        class="text-white bg-green-900 py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-200 md:w-48 scroll-right"
+        class="text-slate-50 bg-green-900 py-2 px-5 rounded-full cursor-pointer hover:-translate-y-1 duration-200 md:w-48 scroll-right"
       >
         <fa class="mr-3" :icon="['fas', 'shopping-cart']" /><span
           class="font-semibold"

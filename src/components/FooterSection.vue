@@ -88,7 +88,7 @@
     </div>
     <div class="scroll-right">
       <button
-        class="text-white bg-green-500 py-2 px-6 rounded-full cursor-pointer hover:-translate-y-1 duration-200"
+        class="text-white bg-green-500 py-2 px-6 rounded-full cursor-pointer hover:-translate-y-1 duration-200 dark:shadow-lg dark:shadow-green-800 dark:text-slate-900"
       >
         <fa class="mr-2" :icon="['fas', 'right-to-bracket']" /><span
           class="font-semibold"

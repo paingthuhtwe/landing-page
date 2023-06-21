@@ -9,7 +9,7 @@
     <div
       class="md:flex"
       :class="{
-        'bg-slate-200 absolute top-[72px] inset-0 h-[25vh] mx-auto opacity-90':
+        'bg-slate-200 absolute top-[72px] inset-0 h-[25vh] mx-auto opacity-90 dark:bg-slate-800':
           !menu,
         hidden: menu,
       }"
@@ -17,7 +17,7 @@
       <div
         class="md:flex"
         :class="{
-          'flex-col w-10/12 mx-auto mt-10 transition': !menu,
+          'flex-col w-10/12 mx-auto mt-10 dark:text-slate-50': !menu,
         }"
       >
         <div
@@ -75,25 +75,16 @@
           class="sr-only"
         />
         <div
-          class="shadow-card flex h-[36px] w-[70px] items-center justify-center rounded-md bg-white"
-          :class="{ 'bg-slate-400': mode == 'dark' }"
+          class="shadow-card flex h-[36px] w-[70px] items-center justify-center rounded-md bg-white dark:bg-green-700"
         >
           <span
-            class="flex h-8 w-8 items-center justify-center rounded"
-            :class="{
-              'bg-green-500 text-white': mode == 'light',
-              'text-slate-800': mode == 'dark',
-            }"
+            class="flex h-8 w-8 items-center justify-center rounded bg-green-500 text-white dark:text-slate-800 dark:bg-green-700"
             @click="toggleTheme('light')"
           >
             <fa :icon="['fas', 'sun']" />
           </span>
           <span
-            class="flex h-8 w-8 items-center justify-center rounded"
-            :class="{
-              'bg-green-500 text-white': mode == 'dark',
-              'text-slate-800': mode == 'light',
-            }"
+            class="flex h-8 w-8 items-center justify-center rounded text-slate-800 dark:bg-green-900 dark:text-slate-100"
             @click="toggleTheme('dark')"
           >
             <fa :icon="['fas', 'moon']" />
@@ -129,13 +120,27 @@ export default {
     ];
     // get theme from localStorage
     localStorage.getItem("theme") == "dark"
-      ? (mode.value = "dark")
-      : (mode.value = "light");
+      ? [
+          (mode.value = "dark"),
+          document.querySelector("html").classList.add("dark"),
+        ]
+      : [
+          (mode.value = "light"),
+          document.querySelector("html").classList.remove("dark"),
+        ];
     // dark mode toggle method
     var toggleTheme = (theme) => {
       theme == "dark"
-        ? [localStorage.setItem("theme", "dark"), (mode.value = theme)]
-        : [localStorage.setItem("theme", "light"), (mode.value = theme)];
+        ? [
+            localStorage.setItem("theme", "dark"),
+            (mode.value = theme),
+            document.querySelector("html").classList.add("dark"),
+          ]
+        : [
+            localStorage.setItem("theme", "light"),
+            (mode.value = theme),
+            document.querySelector("html").classList.remove("dark"),
+          ];
     };
 
     // for menu toggle

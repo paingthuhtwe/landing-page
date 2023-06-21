@@ -1,13 +1,13 @@
 <template>
   <!-- for navbar section  -->
-  <div class="bg-green-600 py-4 fixed w-full shadow-sm z-10">
+  <div class="bg-green-600 py-4 fixed w-full shadow-sm z-10 dark:bg-green-900">
     <div class="w-10/12 mx-auto">
       <NavBar></NavBar>
     </div>
   </div>
   <!-- for hero section  -->
   <section id="home">
-    <div class="bg-green-500 py-8 pt-24">
+    <div class="bg-green-500 py-8 pt-24 dark:bg-slate-700">
       <div class="w-10/12 mx-auto">
         <HeroSection></HeroSection>
       </div>
@@ -15,17 +15,17 @@
   </section>
   <!-- for chat section  -->
   <section id="chat">
-    <div class="py-12">
+    <div class="py-12 dark:bg-slate-600">
       <div class="w-10/12 my-10 mx-auto">
         <FirstChat></FirstChat>
       </div>
     </div>
-    <div class="py-12 bg-slate-50">
+    <div class="py-12 bg-slate-50 dark:bg-slate-700">
       <div class="w-10/12 my-10 mx-auto">
         <SecondChat></SecondChat>
       </div>
     </div>
-    <div class="py-12">
+    <div class="py-12 dark:bg-slate-600">
       <div class="w-10/12 my-10 mx-auto">
         <ThirdChat></ThirdChat>
       </div>
@@ -33,7 +33,7 @@
   </section>
   <!-- for device section  -->
   <section id="device">
-    <div class="py-12 bg-slate-50">
+    <div class="py-12 bg-slate-50 dark:bg-slate-700">
       <div class="w-10/12 my-10 mx-auto">
         <DeviceSection></DeviceSection>
       </div>
@@ -41,7 +41,7 @@
   </section>
   <!-- for footer section  -->
   <section id="feature">
-    <div class="py-12 bg-slate-600">
+    <div class="py-12 bg-slate-600 dark:bg-slate-900">
       <div class="w-10/12 mx-auto">
         <FooterSection></FooterSection>
       </div>
