@@ -1,6 +1,6 @@
 <template>
   <!-- for navbar section  -->
-  <div class="bg-green-600 py-4 fixed w-full shadow-sm z-10 dark:bg-green-900">
+  <div class="bg-green-600 py-4 fixed w-full shadow-sm z-10 dark:bg-slate-900">
     <div class="w-10/12 mx-auto">
       <NavBar></NavBar>
     </div>
