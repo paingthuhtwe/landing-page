@@ -1,7 +1,7 @@
 <template>
   <div class="md:flex justify-center mx-auto my-10">
     <!-- for left  -->
-    <div class="md:p-3 md:w-96 mb-5 md:mb-0">
+    <div class="md:p-3 md:w-96 mb-5 md:mb-0 scroll-left">
       <div class="border shadow-sm shadow-indigo-200 p-5 bg-white rounded-md">
         <h1 class="text-2xl font-semibold">Chats</h1>
         <div
@@ -46,7 +46,7 @@
       </div>
     </div>
     <!-- for right -->
-    <div class="md:p-3 md:w-96">
+    <div class="md:p-3 md:w-96 scroll-right">
       <h1 class="text-2xl font-semibold">
         Create an invite-only place where you belong
       </h1>

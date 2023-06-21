@@ -1,7 +1,7 @@
 <template>
   <div class="md:flex justify-center mx-auto my-10">
     <!-- for left -->
-    <div class="md:p-3 md:w-96 mb-5 md:mb-0">
+    <div class="md:p-3 md:w-96 mb-5 md:mb-0 scroll-left">
       <h1 class="text-2xl font-semibold">Why hanging out is easy</h1>
       <p>
         Grab a seat in a voice channel when you're free. Friends in your server
@@ -9,7 +9,7 @@
       </p>
     </div>
     <!-- for right  -->
-    <div class="md:p-3 md:w-96">
+    <div class="md:p-3 md:w-96 scroll-right">
       <div class="border shadow-sm shadow-indigo-200 p-5 bg-white rounded-md">
         <h1 class="text-2xl font-semibold">Chats</h1>
         <div

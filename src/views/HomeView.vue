@@ -1,49 +1,52 @@
 <template>
   <!-- for navbar section  -->
-  <div class="bg-green-600 py-4 fixed w-full">
+  <div class="bg-green-600 py-4 fixed w-full shadow-sm">
     <div class="w-10/12 mx-auto">
       <NavBar></NavBar>
     </div>
   </div>
   <!-- for hero section  -->
-  <div class="bg-green-500 py-4">
-    <div class="w-10/12 mx-auto">
-      <HeroSection></HeroSection>
+  <section id="home">
+    <div class="bg-green-500 py-8 pt-24">
+      <div class="w-10/12 mx-auto">
+        <HeroSection></HeroSection>
+      </div>
     </div>
-  </div>
+  </section>
   <!-- for chat section  -->
-  <div class="py-4">
-    <div class="w-10/12 mx-auto">
-      <div class="my-10">
+  <section id="chat">
+    <div class="py-12">
+      <div class="w-10/12 my-10 mx-auto">
         <FirstChat></FirstChat>
       </div>
     </div>
-  </div>
-  <div class="py-4 bg-slate-50">
-    <div class="w-10/12 mx-auto">
-      <div class="my-10">
+    <div class="py-12 bg-slate-50">
+      <div class="w-10/12 my-10 mx-auto">
         <SecondChat></SecondChat>
       </div>
     </div>
-  </div>
-  <div class="py-4">
-    <div class="w-10/12 mx-auto">
-      <div class="my-10">
+    <div class="py-12">
+      <div class="w-10/12 my-10 mx-auto">
         <ThirdChat></ThirdChat>
       </div>
     </div>
-  </div>
+  </section>
   <!-- for device section  -->
-  <div class="py-12 bg-slate-50">
-    <div class="w-10/12 mx-auto">
-      <DeviceSection></DeviceSection>
+  <section id="device">
+    <div class="py-12 bg-slate-50">
+      <div class="w-10/12 my-10 mx-auto">
+        <DeviceSection></DeviceSection>
+      </div>
     </div>
-  </div>
-  <div class="py-12 bg-slate-600">
-    <div class="w-10/12 mx-auto">
-      <FooterSection></FooterSection>
+  </section>
+  <!-- for footer section  -->
+  <section id="feature">
+    <div class="py-12 bg-slate-600">
+      <div class="w-10/12 mx-auto">
+        <FooterSection></FooterSection>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
